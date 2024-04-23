@@ -1,0 +1,18 @@
+.customList ol{
+    padding: 0;
+    list-style: none;
+    counter-reset: listItem;
+    border-top: #707070 1px solid;
+}
+
+.customList .listItem::before{
+    counter-increment: listItem;
+    content: "0" counter(listItem) ".";
+    font-size: 70px;
+}
+
+.customlink{
+    color: #FF0000;
+    margin-top: 34px;
+}
+
