@@ -2,13 +2,14 @@
     padding: 0;
     list-style: none;
     counter-reset: listItem;
-    border-top: #707070 1px solid;
 }
 
 .customList .listItem::before{
     counter-increment: listItem;
     content: "0" counter(listItem) ".";
     font-size: 70px;
+    border-bottom: #707070 1px solid;
+    display: block;
 }
 
 .customlink{
