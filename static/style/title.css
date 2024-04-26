@@ -1,6 +1,7 @@
 .title{
     font-size: 90px;
     margin-bottom: 35px;
+    color: #707070;
 }
 .hero1{
     padding-top: 130px;
@@ -10,4 +11,5 @@
 .subTitle{
     font-size: 35px;
     font-family: 'Courier New', Courier, monospace;
+    color: #707070;
 }
